@@ -1,0 +1,25 @@
+:root{
+    --theme-color:#05485d !important;
+}
+.theme{
+    color:var(--theme-color)!important;
+}
+.new th{
+    background-color:#4db6ac26 !important;
+    color:var(--theme-color)!important;
+    font-size: 14px!important;
+}
+.new td{
+    font-size: 14px!important;
+    font-weight: 600;
+}
+.form{
+    background: #386d7e40;
+    padding: 49px;
+    border-radius: 20px;
+
+}
+.form-control:focus{
+    box-shadow: none!important;
+    border-color:var(--theme-color)!important;
+}

@@ -1,0 +1,74 @@
+{
+  "orders": [
+    {
+      "id": 1001,
+      "orderId": "ORD-1001",
+      "customerId": 1,
+      "customerName": "Arun Kumar",
+      "product": "Laptop",
+      "amount": 55000,
+      "status": "Delivered",
+      "date": "2026-02-20"
+    },
+    {
+      "id": 1112,
+      "orderId": "ORD-1002",
+      "customerId": 2,
+      "customerName": "Priya Sharma",
+      "product": "Mobile Phone",
+      "amount": 25000,
+      "status": "Pending",
+      "date": "2026-02-22"
+    },
+    {
+      "id":1113,
+      "orderId": "ORD-1003",
+      "customerId": 3,
+      "customerName": "Vikram Raj",
+      "product": "Headphones",
+      "amount": 3000,
+      "status": "Cancelled",
+      "date": "2026-02-23"
+    },
+    {
+      "id": 1114,
+      "orderId": "ORD-1004",
+      "customerId": 1,
+      "customerName": "Arun Kumar",
+      "product": "Keyboard",
+      "amount": 1500,
+      "status": "Delivered",
+      "date": "2026-02-24"
+    }
+  ],
+
+  "customers": [
+    {
+      "id": 1,
+      "name": "Arun Kumar",
+      "email": "arun@gmail.com",
+      "phone": "9876543210",
+      "location": "Chennai",
+      "joinedDate": "2025-12-10",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Priya Sharma",
+      "email": "priya@gmail.com",
+      "phone": "9876543211",
+      "location": "Coimbatore",
+      "joinedDate": "2026-01-15",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "Vikram Raj",
+      "email": "vikram@gmail.com",
+      "phone": "9876543212",
+      "location": "Madurai",
+      "joinedDate": "2026-02-01",
+      "status": "Inactive"
+    }
+  ]
+}
